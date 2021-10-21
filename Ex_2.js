@@ -7,9 +7,9 @@ if (discriminant > 0) {
     let X2 = (0 - b - Math.sqet(discriminant)) / (2 * a);
     console.log("X1 = " + X1);
     console.log("X2 = " + X2);
-}if (discriminant = 0) {
+}if else (discriminant = 0) {
     let X = (0 - b) / (2 * a);
     console.log("X = " + X);
 } else {
-    console.log("Unsolvable")
+    console.log("Unsolvable");
 }
